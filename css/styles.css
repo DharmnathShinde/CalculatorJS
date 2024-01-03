@@ -12,26 +12,30 @@ html {
 
 .calculator {
   border: 0.5dvmin solid #f80;
-  height: 100%;
+  height: 90dvh;
+  display: grid;
+  align-items: stretch;
 }
 
 .calculator-screen {
-  font-size: 2.5dvmin;
+  font-size: 10dvmin;
   text-align: right;
   border-radius: 2.5dvmin;
   width: 98%;
   padding-right: 2%;
   padding-left: 2%;
+  background-color: #fff3;
 }
 
 button {
-  border-radius: 1.5dvmin;
-  font-size: 2dvmin;
+  border-radius: 2.5dvmin;
+  font-size: 5dvmin;
   background-color: rgba(127,127,255,.3);
 }
 
 button:hover {
-  background-color: rgba(127,127,255,.6);
+  background-color: rgba(123, 123, 224, 0.6);
+  opacity: .5;
 } 
 
 .operator {
